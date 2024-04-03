@@ -66,7 +66,10 @@ than no pathologist are required for manually detection process.
  If you would like to train this Cervical-Cancer Segmentation model by yourself,
  please download the latest normalized dataset from the google drive 
 <a href="https://drive.google.com/file/d/1DxqbpP6kxzBSdH9jA0gCp8o_znI6Pd-7/view?usp=sharing">
-Cervical-Cancer-ImageMask-Dataset-V2.zip</a>
+Cervical-Cancer-ImageMask-Dataset-V2.zip</a>,
+Please refer to the dataset augmentation tool 
+<a href="https://github.com/sarah-antillia/ImageMask-Datasset-Cervical-Cancer">ImageMask-Datasset-Cervical-Cancer</a>.
+
 <br>
 
 <br>
@@ -125,7 +128,7 @@ Please expand the downloaded ImageMaskDataset and place them under <b>./dataset<
 
 </pre>
 Please note that the pixel size of images and masks files in test dataset is 2048x1536 of the original SipakMed dataset, while  
-the train and valid datasets created by our augmentation tool is 512x512.<br>
+the train and valid datasets created by the augmentation tool is 512x512.<br>
 <br> 
 In this experiment,for simplicity, we deal with <b>Metaplastic</b> category only.<br>
 <br>
@@ -206,7 +209,7 @@ image_datapath = "../../../dataset/Cervical-Cancer/test/Metaplastic/images/"
 mask_datapath  = "../../../dataset/Cervical-Cancer/test/Metaplastic/masks/"
 
 [infer] 
-images_dir    = "./mini_test/Metalplastic/images"
+images_dir    = "./mini_test/Metaplastic/images"
 output_dir    = "./mini_test_output"
 merged_dir    = "./mini_test_output_merged"
 binarize      = True
@@ -269,10 +272,10 @@ Please move to a <b>./projects/TensorflowSlightlyFlexibleUNet/Cervical-Cancer</b
 <pre>
 python ../../../src/TensorflowUNetInferencer.py ./train_eval_infer_aug.config
 </pre>
-Metalplastic_mini_test_images<br>
-<img src="./projects/TensorflowSlightlyFlexibleUNet/Cervical-Cancer/asset/Metalplastic_test_images.png" width="1024" height="auto"><br>
-Metalplastic_mini_test_mask(ground_truth)<br>
-<img src="./projects/TensorflowSlightlyFlexibleUNet/Cervical-Cancer/asset/Metalplastic_test_masks.png" width="1024" height="auto"><br>
+Metaplastic_mini_test_images<br>
+<img src="./projects/TensorflowSlightlyFlexibleUNet/Cervical-Cancer/asset/Metaplastic_test_images.png" width="1024" height="auto"><br>
+Metaplastic_mini_test_mask(ground_truth)<br>
+<img src="./projects/TensorflowSlightlyFlexibleUNet/Cervical-Cancer/asset/Metaplastic_test_masks.png" width="1024" height="auto"><br>
 
 <br>
 Inferred test masks<br>
