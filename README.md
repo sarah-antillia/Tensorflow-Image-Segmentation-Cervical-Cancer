@@ -68,7 +68,7 @@ than no pathologist are required for manually detection process.
 <a href="https://drive.google.com/file/d/1DxqbpP6kxzBSdH9jA0gCp8o_znI6Pd-7/view?usp=sharing">
 Cervical-Cancer-ImageMask-Dataset-V2.zip</a>,
 Please refer to the dataset augmentation tool 
-<a href="https://github.com/sarah-antillia/ImageMask-Datasset-Cervical-Cancer">ImageMask-Datasset-Cervical-Cancer</a>.
+<a href="https://github.com/sarah-antillia/ImageMask-Dataset-Cervical-Cancer">ImageMask-Dataset-Cervical-Cancer</a>.
 
 <br>
 
