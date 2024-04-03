@@ -7,7 +7,7 @@ Cervical-Cancer-ImageMask-Dataset-V2.zip</a>
 <br>
 
 <br>
-Segmentation samples by <a href="./src/TensorflowUNet.py">TensorflowSlightlyFlexibleUNet</a> Model<br>
+Segmentation for test images of 2048x1536 size by <a href="./src/TensorflowUNet.py">TensorflowSlightlyFlexibleUNet</a> Model<br>
 <img src="./projects/TensorflowSlightlyFlexibleUNet/Cervical-Cancer/asset/segmentation_samples.png" width="720" height="auto">
 <br>
 <br>
