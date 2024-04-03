@@ -252,6 +252,7 @@ Evaluation console output:<br>
 <img src="./projects/TensorflowSlightlyFlexibleUNet/Cervical-Cancer/asset/evaluate_console_output_at_epoch_55.png" width="720" height="auto">
 <br><br>
 <a href="./projects/TensorflowSlightlyFlexibleUNet/Cervical-Cancer/evaluation.csv">evaluation.csv</a><br>
+The loss score for this test dataset is not so low as shown below.<br>
 <pre>
 loss,0.2506
 binary_accuracy,0.9758
